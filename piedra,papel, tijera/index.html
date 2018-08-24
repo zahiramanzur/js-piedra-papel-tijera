@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra, papel o tijera (GAME)</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+</head>
+<body>
+	<h2>Piedra, Papel o Tijera</h2>
+	<section id="game-zone">
+		
+		<figure>
+			<figcaption>Jugador</figcaption>
+			<img id="imgPlayerChoice" src="images/paper.png" alt="Seleccion jugador">
+		</figure>
+		
+		<figure>
+			<figcaption>Computadora</figcaption>
+			<img id="imgComputerChoice" src="images/paper.png" alt="Seleccion computadora">
+		</figure>	
+
+	</section>
+
+		<p id="resultado">
+			Tu <strong id="pResultado"> empatas </strong> escojiendo <strong id="elemResultado"> papel </strong>
+			en contra de <strong id="elemContra"> papel </strong>.
+		</p>
+		<p id="ranking">
+			Has ganado <strong id="ganadas"> 0 </strong>veces.
+			Has perdido <strong id="perdidas"> 0 </strong>veces.
+		</p>
+
+		<h4>Escoje una opción:</h4>
+	<section id="chooser">
+		<button data-choice="piedra">
+			<img src="images/rock.png" alt="">
+		</button>
+		<button data-choice="papel">
+			<img src="images/paper.png" alt="">
+		</button>
+		<button data-choice="tijera">
+			<img src="images/scissors.png" alt="">
+		</button>
+	</section>
+	<script src="app.js"></script>
+</body>
+</html>

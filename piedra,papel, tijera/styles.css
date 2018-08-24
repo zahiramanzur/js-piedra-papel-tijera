@@ -1,0 +1,34 @@
+body{
+	background: #C3C8DD;
+	text-align: center;
+	font-size: 1.1em;
+	margin-left: 20em;
+	margin-right: 20em;
+	font-family: 'Baloo Bhai', cursive;
+
+}
+#game-zone{
+	display: flex;
+	background: #F5A559;
+	border-radius: 1em;	
+}
+#game-zone figure{
+	flex: 1;
+}
+#resultado{
+	background: #F5E87A;
+	border-radius: 1em;
+	padding: 0.5em;
+
+}
+#ranking{
+	border: 1px dashed black;
+	background: #ADF494;
+	padding: 0.5em;
+}
+#chooser{
+	padding: 0.5em;
+	background: #4D6ABD;
+	border-radius: 1em;
+
+}
